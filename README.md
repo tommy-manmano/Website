@@ -6,9 +6,7 @@ At the moment, the focus is on building the full-stack architecture and implemen
 The repository currently serves as a development snapshot while core functionality and interactive features are being built and refined.
 
 Planned future additions include:
-- Interactive browser-based games
-- Full REST API integration
-- Responsive UI improvements
+- CSS Styling for a cleaner and more professional experience
 - Public deployment for live access
 
 A live hosted version will be added once the application reaches a more complete and polished state.
