@@ -15,14 +15,7 @@
             <li><a href ="games.html">Games</a></li>
         </ul>
     </nav>
-
-    <h1>Games</h1>
-    
-    <button id="testButton">
-        Is server side connected?
-    </button>
-    <p id="testResponse"></p>
-    <script src="../js/games.js"></script>
+    <br>
 
     <div class="numGuessDiv">
         <h2>Number Guessing Game</h2>
@@ -36,9 +29,25 @@
         <label for="upperBound">Upper Bound: </label>
         <input type="number" id="upperBound" name="upperBound">
         <br>
-        <input type="submit">
+        
+        <button id="startGameButton" type="button">
+            Start Game
+        </button>
+        <button id="resetGameButton" type="button">
+            Reset Game
+        </button>
 
+        <div id="guessSection" style="display: none; margin-top: 1rem;">
+            <p id="guessPrompt"></p>
+            <p id="boundaryInfo"></p>
+
+            <button id="tooLowButton" type="button">Too low</button>
+            <button id="correctButton" type="button">Correct</button>
+            <button id="tooHighButton" type="button">Too high</button>
+
+            <p id="feedbackMessage"></p>
+        </div>
     </div>
-
+    <script src="../js/games.js"></script>
 </body>
 </html>
